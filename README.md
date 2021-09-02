@@ -8,9 +8,13 @@
 When the user selects a meal from the search results, the details of that meal show:
 
 • Name of the dish
+
 • Image of the dish
+
 • Optional video of how to prepare the dish
+
 • A List of ingredients including measures
+
 • Instructions how to prepare the dish
  
 
