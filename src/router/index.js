@@ -13,7 +13,10 @@ const routes = [
     name: "Home",
     component: Home,
   },
-  { path: "/s=:searchText", name: "SearchDetails", component: SearchDetails },
+  { path: "/search=:searchText", 
+    name: "SearchDetails", 
+    component: SearchDetails 
+  },
   {
     path: "/mealdetails/:id",
     name: "MealDetails",

@@ -3,9 +3,6 @@
     <div id="random-meal" v-if="!isLoading && !error">
       <meal-card :meal="randomMeal" />
     </div>
-    <!-- <div id="error-page" v-else-if="!isLoading && error">
-      <error-page :error="error" />
-    </div> -->
     <div id="loading" v-else>
       <b-spinner></b-spinner><br />
       <h4>Loading</h4>
@@ -15,13 +12,11 @@
 
 <script>
 import MealCard from "../components/MealCard.vue";
-// import ErrorPage from "../components/ErrorPage.vue";
 import { mapState } from "vuex";
 export default {
   name: "Home",
   components: {
     MealCard,
-    // ErrorPage,
   },
   data() {
     return {

@@ -31,7 +31,7 @@ describe("ErrorPage Component", () => {
     expect(wrapper.html()).toContain('<div class="error-page">');
   });
 
-  it("should user clicks on button then it should call refreshPage method", () => {
+  it("when user clicks on button then it should call refreshPage method", () => {
     const { location } = window.location;
     delete window.location;
     window.location = { reload: jest.fn() };
